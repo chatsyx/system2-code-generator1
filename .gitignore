@@ -212,3 +212,18 @@ system2_log.txt
 history.json
 # 忽略批处理文件（可选，若无需开源）
 *.bat
+# 忽略环境变量文件（敏感信息）
+.env
+# 忽略Python编译缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# 忽略日志文件
+*.log
+# 忽略历史记录文件
+history.json
+# 忽略批处理文件
+*.bat
+# 忽略临时文件
+*.tmp
